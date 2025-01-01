@@ -1,0 +1,67 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #2e3440; /* Nord0 */
+    color: #d8dee9; /* Nord4 */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #5e81ac; /* Nord8 */
+    color: #eceff4; /* Nord5 */
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #eceff4; /* Nord5 */
+}
+
+p {
+    color: #d8dee9; /* Nord4 */
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+article {
+    background-color: #4c566a; /* Nord3 */
+    flex: 1;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+article:hover {
+    transform: scale(1.05);
+}
+
+a {
+    color: #81a1c1; /* Nord9 */
+    text-decoration: none;
+    display: flex;
+    margin-top: 10px;
+}
+
+a:focus, a:hover {
+    text-decoration: underline;
+}
+
+.wedding-container {
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    max-height: 100vh;
+    width: 100%;
+}
