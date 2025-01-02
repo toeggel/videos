@@ -7,6 +7,7 @@ body {
 }
 
 header {
+    border-top: 10px solid #88c0d0;
     background-color: #5e81ac; /* Nord8 */
     color: #eceff4; /* Nord5 */
     text-align: center;
