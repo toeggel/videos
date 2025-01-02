@@ -10,11 +10,15 @@ header {
     background-color: #5e81ac; /* Nord8 */
     color: #eceff4; /* Nord5 */
     text-align: center;
-    padding: 20px;
+    padding: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 56px;
 }
 
 h1, h2 {
     color: #eceff4; /* Nord5 */
+    margin: auto;
 }
 
 p {
@@ -29,10 +33,11 @@ section {
 }
 
 article {
+    text-align: center;
     background-color: #4c566a; /* Nord3 */
     flex: 1;
     border-radius: 8px;
-    padding: 20px;
+    padding: 40px;
     margin: 10px;
     width: 300px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -55,13 +60,7 @@ a:focus, a:hover {
     text-decoration: underline;
 }
 
-.wedding-container {
-    max-height: 100vh;
+.flex {
     display: flex;
-    justify-content: center;
-}
-
-video {
-    max-height: 100vh;
-    width: 100%;
+    flex: 1;
 }
